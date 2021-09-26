@@ -3,9 +3,9 @@
 This project is done by [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
-*Shows the added developers
-*Shows the projects they completed
-*Has some information about developers
+* Shows the added developers
+* Shows the projects they completed
+* Has some information about developers
 
 In the project directory, you can run:
 
