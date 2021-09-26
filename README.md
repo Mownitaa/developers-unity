@@ -1,8 +1,7 @@
 # The Web Developers
 
-This project is done by [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+This project is about [Developers Unity](https://github.com/facebook/create-react-app).
+This website:
 * Shows the added developers
 * Shows the projects they completed
 * Has some information about developers

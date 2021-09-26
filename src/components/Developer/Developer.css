@@ -4,7 +4,7 @@
     box-shadow: 3px 4px 12px gray;
     border: 1px solid lightgray;
     border-radius: 20px;
-    height: 420px;
+    height: 430px;
     padding-top: 20px;
 }
 
@@ -13,7 +13,7 @@
     text-align: center;
 }
 .images{
-    width: 45%;
+    width: 43%;
     height: 140px;
     border-radius: 50%;
 }
