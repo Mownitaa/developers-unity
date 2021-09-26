@@ -1,10 +1,26 @@
 .developer{
     text-align: center;
+   margin: 10px;
+    box-shadow: 3px 4px 12px gray;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    height: 420px;
+    padding-top: 20px;
 }
 
 
 .images{
     width: 35%;
-    height: 150px;
-    border-radius: 40%
+    height: 130px;
+    border-radius: 55%;
+}
+
+.btn{
+    width: 50%;
+    background-color: rgb(121, 13, 67);
+    color: beige;
+    border-radius: 10px;
+    padding: 6px;
+    cursor: pointer;
+    border-style:none;
 }

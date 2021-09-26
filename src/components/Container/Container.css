@@ -2,6 +2,8 @@
     display: grid;
     grid-template-columns: 3fr 1fr;
     line-height: 13px;
+    border: 3px solid rgb(124, 118, 118);
+    margin: 10px;
 }
 .developers-container{
     border-right: 1px solid rgb(182, 181, 181);
@@ -9,10 +11,14 @@
     margin-left: 20px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    padding: 30px;
-    background-color: beige;
+    padding-right: 20px;
+    padding-left: 9px;
+    padding-top: 20px;
 }
 .total-container{
+    text-align: center;
     background-color: rgba(117, 109, 109, 0.123);
-    padding: 4px;
+   color:rgb(121, 13, 67);
+   padding: 20px;
+   margin: 35px 20px 0px 20px;
 }
