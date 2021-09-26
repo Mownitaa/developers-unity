@@ -1,4 +1,4 @@
-import React from 'react';
+// import React, { useEffect, useState } from 'react';
 import './Total.css';
 const Total = (props) => {
     const { total } = props;
@@ -10,7 +10,7 @@ const Total = (props) => {
         <div>
             <h3>Developer Added:{props.total.length}</h3>
             <h3>Total Done Projects: {totalProjects}</h3>
-            {/* <p>{props.developer.name}</p> */}
+            {/* <h1>{props.developers}</h1> */}
         </div>
     );
 };

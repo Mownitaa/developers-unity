@@ -29,7 +29,7 @@ const Container = () => {
                 }
             </div>
             <div className="total-container">
-                <Total total={total}></Total>
+                <Total total={total} developers={developers}></Total>
             </div>
         </div>
     );

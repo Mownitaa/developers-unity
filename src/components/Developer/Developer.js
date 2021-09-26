@@ -1,11 +1,11 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faProjectDiagram } from '@fortawesome/free-solid-svg-icons'
+import { faCode } from '@fortawesome/free-solid-svg-icons'
 import './Developer.css';
 const Developer = (props) => {
     // console.log(props.developer)
     const { name, id, email, type, projects, img } = props.developer;
-    const element = <FontAwesomeIcon icon={faProjectDiagram} />
+    const codeIcon = <FontAwesomeIcon icon={faCode} />
     return (
         <div className="developer">
             <img className="images" src={img} alt="" />
@@ -17,11 +17,11 @@ const Developer = (props) => {
             <button
                 onClick={() => props.handleAdd(props.developer)}
                 className="btn"
-            > <i class="fas fa-laptop-code"></i> Click to Add</button>
-            {/* <h3><i class="fas fa-laptop-code"></i></h3> */}
-            <h3>{element}</h3>
-        </div>
+            >  <span>{codeIcon}</span> Click to Add</button>
+            <h1><i className="fas fa-laptop-code"></i>
+                <i className="fab fa-github"></i></h1>
+
+        </div >
     );
 };
-
 export default Developer;

@@ -8,11 +8,14 @@
     padding-top: 20px;
 }
 
-
+.developer h1 i{
+    padding-left: 10px;
+    text-align: center;
+}
 .images{
-    width: 35%;
-    height: 130px;
-    border-radius: 55%;
+    width: 45%;
+    height: 140px;
+    border-radius: 50%;
 }
 
 .btn{
