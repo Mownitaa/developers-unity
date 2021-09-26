@@ -1,7 +1,9 @@
-// import React, { useEffect, useState } from 'react';
+
+import Name from '../Name/Name';
 import './Total.css';
 const Total = (props) => {
-    const { total, developers } = props;
+    console.log(props)
+    const { total } = props;
     let totalProjects = 0;
     for (const developer of total) {
         totalProjects = totalProjects + developer.projects;
@@ -11,7 +13,10 @@ const Total = (props) => {
             <h3>Developer Added:{props.total.length}</h3>
             <h3>Total Done Projects: {totalProjects}</h3>
             {
-                developers.map(developer => console.log(developer.name))
+                props.total.map(name => <Name
+                    key={name.id}
+                    name={name}
+                ></Name>)
             }
         </div>
     );

@@ -25,11 +25,12 @@ const Container = () => {
                         key={developer.id}
                         developer={developer}
                         handleAdd={handleAdd}
-                    ></Developer>)
+                    ></Developer>
+                    )
                 }
             </div>
             <div className="total-container">
-                <Total total={total} developers={developers}></Total>
+                <Total total={total}></Total>
             </div>
         </div>
     );
